@@ -1,0 +1,170 @@
+/*==============#SECTION-INFO================*/
+.info {
+	padding: 50px 0;
+	min-height: 407px;
+	h2 {
+		color: #52A962;
+		text-align: center;
+	}
+	.cols {
+		padding-bottom: 24px;
+	}
+	.col {
+		box-sizing: border-box;
+		&:first-child {
+			border-bottom: 3px dashed #52A962;
+			margin-bottom: 45px;
+		}
+	}
+}
+.reviews {
+	&_author {
+		padding: 0 60px;
+		max-width: 470px;
+		overflow: hidden;
+		margin: 0 auto 27px;
+		.name {
+			font-family: $font_stem_medium;
+			margin-bottom: 5px;
+		}
+		.fb-profile {
+			font-family: $font_stem_italic;
+			font-size: 13px;
+			padding-top: 3px;
+			span {
+				color: #52A962;
+			}
+		}
+	}
+	&_info {
+		padding-top: 28px;
+		span {
+			font-size: 14px;
+		}
+	}
+	&_text {
+		max-width: 590px;
+		margin: auto;
+		background-color: #F6CE45;
+		padding: 30px 45px 15px 25px;
+		box-sizing: border-box;
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: -26px;
+			left: 50%;
+			width: 0;
+			height: 0;
+			border-bottom: 26px solid #F6CE45; 
+			border-left: 30px solid transparent;
+		}
+	}
+}
+.faq {
+	padding-top: 20px;
+	&_question {
+		// max-width: 590px;
+		display: block;
+		cursor: pointer;
+		border-bottom: 1px dotted #646464;
+		position: relative;
+			margin-left: 24px;
+		&:first-child {
+			border-top: 1px dotted #646464;
+		}
+		input {
+			display: none;
+			&:checked ~ {
+				span {
+					font-family: $font_stem_medium;
+				}
+				span:before {
+					display: block;
+				}
+				span:after {
+					background: url('../img/design/close.svg');
+					top: 22px;
+					width: 11px;
+					height: 11px;
+				}
+				.faq_answer {
+					display: block;
+				}
+			}
+		}
+		span {
+			display: block;
+			padding: 10px 0 12px;
+		}
+		span:before {
+			content: 'В:';
+			display: none;
+			position: absolute;
+			left: -24px;
+			top: 10px;
+			color: #52A962;
+			font-family: $font_stem_bold;
+			font-size: 16px;
+		}
+		span:after {
+			content: '';
+			background: url('../img/design/plus.svg');
+			position: absolute;
+			width: 15px;
+			height: 15px;
+			right: 10px;
+			top: 50%;
+			margin-top: -7px;
+		}
+	}
+	&_answer {
+		display: none;
+		position: relative;
+		font-size: 15px;
+		&:before {
+			content: 'О:';
+			position: absolute;
+			left: -24px;
+			top: 0;
+			color: #52A962;
+			font-family: $font_stem_bold;
+			font-size: 16px;
+		}
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.reviews {
+		&_img {
+			float: left;
+		}
+		&_info {
+			padding-left: 155px;
+		}
+	}
+}
+@media screen and (min-width: 1024px) {
+	.info {
+		.col {
+			box-sizing: border-box;
+			&:first-child {
+				border-right: 3px dashed #52A962;
+				border-bottom: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+	.reviews {
+		padding-right: 55px;
+		&_info {
+			span {
+				font-size: 16px;
+			}
+		}
+	}
+	.faq {
+		padding-left: 40px;
+	}
+}

@@ -1,0 +1,156 @@
+/*==============#HEADER================*/
+.header {
+	&_inner {
+		overflow: hidden;
+		max-width: $container_max_width;
+		margin: 0 auto;
+		// padding-left: 4.3050%;
+		// padding-left: 64px;
+		// padding-left: 10px;
+		box-sizing: border-box;
+	}
+	&_phone {
+		font-size: 14px;
+		display: inline-block;
+		margin-top: 30px;
+		margin-left: 3.0833%;
+		a {
+			font-size: 16px;
+		}
+		span {
+			display: block;
+			font-size: 11px;
+			padding-top: 5px;
+		}
+	}
+}
+.logo {
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.nav-panel {
+	float: left;
+	text-transform: uppercase;
+	font-family: $font_stem_medium;
+	font-size: 14px;
+	padding-top: 45px;
+	padding-left: 10px;
+	clear: left;
+	margin-bottom: 20px;
+	a {
+		margin-right: 16px;
+		font-size: 12px;
+	}
+}
+.user-panel {
+	background-color: #E5E5E5;
+	// padding: 0 10px;
+	box-sizing: border-box;
+	clear: both;
+	a {
+		display: inline-block;
+		position: relative;
+		margin-right: 20px;
+		box-sizing: border-box;
+	}
+	&_sign {
+		padding: 17px 0 11px 30px;
+		.icon-login {
+			position: absolute;
+			left: 2px;
+		}
+	}
+	&_reg {
+		padding: 11px 0 17px 30px;
+		.icon-user {
+			position: absolute;
+			left: 4px;
+			top: 8px;
+		}
+	}
+	&_left,
+	&_right {
+		width: 50%;
+		float: left;
+		
+	}
+	&_right {
+		.open-platform {
+			background-color: #52A962;
+			color: #fff;
+		}
+	}
+	&_info {}
+}
+@media screen and (min-width: 360px){
+	.header {
+		&_phone {
+			a {
+				font-size: 20px;
+			}
+			span {
+				font-size: 14px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 700px){
+	.user-panel {
+		float: right;
+		// width: 278px;
+		clear: none;
+		// padding: 0 40px;
+		a {
+			display: block;
+		}
+		&_sign {
+			border-bottom: 1px solid;
+		}
+	}
+}
+@media screen and (min-width: 1024px){
+	.header {
+		&_inner {
+			padding-left: 54px;
+		}
+	}
+	.nav-panel {
+		clear: left;
+		a {
+			font-size: 14px;
+		}
+	}
+}
+@media screen and (min-width: 1140px){
+	.header {
+		&_phone {
+			margin-left: 2.0833%;
+
+		}
+	}
+	.nav-panel {
+		clear: none;
+		margin-left: 2.0833%;
+		margin-bottom: 0;
+		a {
+			font-size: 13px;
+		}
+	}
+}
+@media screen and (min-width: 1280px){
+	.header {
+		&_phone {
+			margin-left: 4.5833%;
+			a {
+				font-size: 24px;
+			}
+		}
+	}
+	.nav-panel {
+		margin-left: 4.5833%;
+		a {
+			font-size: 14px;
+		}
+	}
+}

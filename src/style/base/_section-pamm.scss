@@ -1,0 +1,147 @@
+/*==============#SECTION-PAMM================*/
+.pamm {
+	background-color: #252525;
+	background: #252525 url('../img/design/bg-pamm.png') no-repeat right bottom;
+	padding: 40px 0 30px;
+	color: #fff;
+	h2 {
+		color: #fff;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	h3 {
+		color: #52A962;
+		text-align: center;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.col {
+		&:first-child {
+			padding-bottom: 42px;
+			box-sizing: border-box;
+			border-bottom: 2px dashed #F6CE45;
+		}
+		&:last-child {
+			padding-top: 42px;
+			box-sizing: border-box;
+		}
+	}
+	.tabs {
+		padding-top: 23px;
+		&_item {
+			min-height: 371px;
+			box-sizing: border-box;
+			.label-top {
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			.btn {
+				position: relative;
+				z-index: 2;
+			}
+		}
+	}
+	table {
+		margin-bottom: 40px;
+		color: #000;
+	}
+	.buttons {
+		padding-top: 45px;
+		text-align: center;
+		.btn {
+			margin-bottom: 25px;
+		}
+	}
+}
+.facts {
+	padding-top: 22px;
+	margin-bottom: 53px;
+	&_item {
+		color: #52A962;
+		font-size: 15px;
+		margin-bottom: 33px;
+		position: relative;
+		padding-left: 103px;
+	}
+	.icon-income {
+		&:before {
+			top: -10px;
+		}
+	}
+	.icon-observ {
+		&:before {
+			left: 30px;
+		}
+	}
+}
+@media screen and (min-width: 600px) {
+	.pamm {
+		.buttons {
+			// .btn {
+			// 	&:first-child {
+			// 		float: left;
+			// 	}
+			// 	&:last-child {
+			// 		float: right;
+			// 	}
+			// }
+		}
+	}
+}
+@media screen and (min-width: 667px) {
+	.pamm {
+		h2 {
+			margin-bottom: 60px;
+		}
+		h3 {
+			font-size: 22px;
+			line-height: 26px;
+		}
+		.buttons {
+			.btn {
+				margin-left: 11px;
+				margin-right: 11px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1024px) {
+	.pamm {
+		padding: 62px 0 75px;
+		.col {
+			&:first-child {
+				padding-right: 64px;
+				padding-bottom: 0;
+				border-right: 2px dashed #F6CE45;
+				border-bottom: 0;
+			}
+			&:last-child {
+				padding-left: 64px;
+				padding-top: 0;
+			}
+		}
+		.buttons {
+			// text-align: left;
+			// .btn {
+			// 	margin: 0;
+			// }
+		}
+	}
+}
+@media screen and (min-width: 1400px) { 
+	.pamm {
+		.buttons {
+			text-align: left;
+			.btn {
+				margin: 0;
+				&:first-child {
+					float: left;
+				}
+				&:last-child {
+					float: right;
+				}
+			}
+		}
+	}
+}

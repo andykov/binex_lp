@@ -1,0 +1,77 @@
+/*==============#NAVIGATION================*/
+.tabs {
+	input {
+		display: none;
+	}
+	&_nav {
+		font-size: 0;
+		display: table;
+		width: 100%;
+		label {
+			display: table-cell;
+			vertical-align: middle;
+			background-color: #8C8C8C;
+			color: #fff;
+			font-size: 12px;
+			line-height: 14px;
+			padding: 14px 9px 14px;
+			width: 188px;
+			width: (188 / 590) * 100%;
+			box-sizing: border-box;
+			cursor: pointer;
+			transition: background-color 0.2s, color 0.2s;
+			border-left: 6px solid #252525;
+			&:first-child {
+				border-left: 0;
+			}
+			&:hover {
+				background-color: #fff;
+				color: #000;
+			}
+		}
+	}
+	&_cont {
+		background-color: #F4F4F4;
+		position: relative;
+	}
+	&_item {
+		display: none;
+		text-align: center;
+		padding: 0 5px 35px;
+	}
+}
+#tab-one:checked ~ .tabs_nav label[for="tab-one"],
+#tab-two:checked ~ .tabs_nav label[for="tab-two"],
+#tab-three:checked ~ .tabs_nav label[for="tab-three"]{
+	background-color: #F4F4F4;
+	color: #000;
+	font-family: $font_stem_bold;
+	font-size: 17px;
+}
+#tab-one:checked ~ .tabs_cont .tabs_item--one,
+#tab-two:checked ~ .tabs_cont .tabs_item--two,
+#tab-three:checked ~ .tabs_cont .tabs_item--three{
+	display: block;
+}
+
+@media screen and (min-width: 480px) {
+	.tabs {
+		&_nav {
+			label {
+				font-size: 15px;
+				padding-left: 18px;
+				padding-right: 18px;
+			}
+		}
+		&_item {
+			padding-top: 19px;
+			padding-left: 17px;
+			padding-right: 17px;
+		}
+	}
+}
+@media screen and (min-width: 1024px) {
+	.tabs {
+		max-width: 590px;
+	}
+}

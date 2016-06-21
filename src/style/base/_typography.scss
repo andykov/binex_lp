@@ -1,0 +1,100 @@
+/*==============#TYPOGRAPHY================*/
+@font-face {
+	font-family: 'StemThin';
+	src: url('fonts/StemThin/STM25.eot');
+	src: url('fonts/StemThin/STM25.eot') format('embedded-opentype'),
+		 url('fonts/StemThin/STM25.woff2') format('woff2'),
+		 url('fonts/StemThin/STM25.woff') format('woff'),
+		 url('fonts/StemThin/STM25.ttf') format('truetype'),
+		 url('fonts/StemThin/STM25.svg#STM25') format('svg');
+}
+@font-face {
+	font-family: 'StemExtraLight';
+	src: url('fonts/StemExtraLight/STM35.eot');
+	src: url('fonts/StemExtraLight/STM35.eot') format('embedded-opentype'),
+		 url('fonts/StemExtraLight/STM35.woff2') format('woff2'),
+		 url('fonts/StemExtraLight/STM35.woff') format('woff'),
+		 url('fonts/StemExtraLight/STM35.ttf') format('truetype'),
+		 url('fonts/StemExtraLight/STM35.svg#STM35') format('svg');
+}
+@font-face {
+	font-family: 'StemLight';
+	src: url('fonts/StemLight/STM45.eot');
+	src: url('fonts/StemLight/STM45.eot') format('embedded-opentype'),
+		 url('fonts/StemLight/STM45.woff2') format('woff2'),
+		 url('fonts/StemLight/STM45.woff') format('woff'),
+		 url('fonts/StemLight/STM45.ttf') format('truetype'),
+		 url('fonts/StemLight/STM45.svg#STM45') format('svg');
+}
+@font-face {
+	font-family: 'StemLightItalic';
+	src: url('fonts/StemLightItalic/STM46.eot');
+	src: url('fonts/StemLightItalic/STM46.eot') format('embedded-opentype'),
+		 url('fonts/StemLightItalic/STM46.woff2') format('woff2'),
+		 url('fonts/StemLightItalic/STM46.woff') format('woff'),
+		 url('fonts/StemLightItalic/STM46.ttf') format('truetype'),
+		 url('fonts/StemLightItalic/STM46.svg#STM46') format('svg');
+}
+@font-face {
+	font-family: 'StemRegular';
+	src: url('fonts/StemRegular/STM55.eot');
+	src: url('fonts/StemRegular/STM55.eot') format('embedded-opentype'),
+		 url('fonts/StemRegular/STM55.woff2') format('woff2'),
+		 url('fonts/StemRegular/STM55.woff') format('woff'),
+		 url('fonts/StemRegular/STM55.ttf') format('truetype'),
+		 url('fonts/StemRegular/STM55.svg#STM55') format('svg');
+}
+@font-face {
+	font-family: 'StemItalic';
+	src: url('fonts/StemItalic/STM56.eot');
+	src: url('fonts/StemItalic/STM56.eot') format('embedded-opentype'),
+		 url('fonts/StemItalic/STM56.woff2') format('woff2'),
+		 url('fonts/StemItalic/STM56.woff') format('woff'),
+		 url('fonts/StemItalic/STM56.ttf') format('truetype'),
+		 url('fonts/StemItalic/STM56.svg#STM56') format('svg');
+}
+@font-face {
+	font-family: 'StemMedium';
+	src: url('fonts/StemMedium/STM65.eot');
+	src: url('fonts/StemMedium/STM65.eot') format('embedded-opentype'),
+		 url('fonts/StemMedium/STM65.woff2') format('woff2'),
+		 url('fonts/StemMedium/STM65.woff') format('woff'),
+		 url('fonts/StemMedium/STM65.ttf') format('truetype'),
+		 url('fonts/StemMedium/STM65.svg#STM65') format('svg');
+}
+@font-face {
+	font-family: 'StemBold';
+	src: url('fonts/StemBold/STM75.eot');
+	src: url('fonts/StemBold/STM75.eot') format('embedded-opentype'),
+		 url('fonts/StemBold/STM75.woff2') format('woff2'),
+		 url('fonts/StemBold/STM75.woff') format('woff'),
+		 url('fonts/StemBold/STM75.ttf') format('truetype'),
+		 url('fonts/StemBold/STM75.svg#STM75') format('svg');
+}
+@font-face {
+	font-family: 'DINPro';
+	src: url('fonts/DINPro/DINPro.eot');
+	src: url('fonts/DINPro/DINPro.eot') format('embedded-opentype'),
+		 url('fonts/DINPro/DINPro.woff2') format('woff2'),
+		 url('fonts/DINPro/DINPro.woff') format('woff'),
+		 url('fonts/DINPro/DINPro.ttf') format('truetype'),
+		 url('fonts/DINPro/DINPro.svg#DINPro') format('svg');
+}
+@font-face {
+	font-family: 'ReformaGroteskMediumC';
+	src: url('fonts/ReformaGroteskMediumC/ReformaGroteskMediumC.eot');
+	src: url('fonts/ReformaGroteskMediumC/ReformaGroteskMediumC.eot') format('embedded-opentype'),
+		 url('fonts/ReformaGroteskMediumC/ReformaGroteskMediumC.woff2') format('woff2'),
+		 url('fonts/ReformaGroteskMediumC/ReformaGroteskMediumC.woff') format('woff'),
+		 url('fonts/ReformaGroteskMediumC/ReformaGroteskMediumC.ttf') format('truetype'),
+		 url('fonts/ReformaGroteskMediumC/ReformaGroteskMediumC.svg#ReformaGroteskMediumC') format('svg');
+}
+@font-face {
+	font-family: 'als_rubl';
+	src: url('fonts/ruble/rouble-webfont.eot');
+	src: url('fonts/ruble/rouble-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/ruble/rouble-webfont.woff2') format('woff2'),
+		 url('fonts/ruble/rouble-webfont.woff') format('woff'),
+		 url('fonts/ruble/rouble-webfont.ttf') format('truetype');
+}
+
