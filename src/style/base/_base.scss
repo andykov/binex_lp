@@ -1,7 +1,8 @@
 /*==============#BASE STYLE================*/
 body {
 	font: $font_size $font_stem_regular;
-	line-height: 20px;
+	// line-height: 20px;
+	line-height: 1.6;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	color: $base_color;
 	min-width: 320px;
@@ -14,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 { font-size: 42px; }
 h2 { font-size: 20px; line-height: 27px;}	
-h3 { font-size: 16px; line-height: 20px;}
+h3 { font-size: 16px; line-height: 20px; margin-bottom: 17px;}
 
 img {
 	max-width: 100%;
@@ -123,14 +124,14 @@ input:-moz-placeholder { color:#777676; }
 }
 
 .hint {
-	padding: 3% 12% 3% 12%;
+	padding: 3% 7%;
 	font-size: 12px;
 	color: #fff;
 	line-height: 17px;
 	position: relative;
 	margin: 2px;
 	box-sizing: border-box;
-	
+	text-align: center;
 	background-color: #52A962;
 	&:before {
 		content: '';
@@ -324,8 +325,8 @@ input:-moz-placeholder { color:#777676; }
 		left: 0;
 		margin: auto;
 		background: url('../img/design/fb-green.svg') no-repeat;
-		width: 10px;
-		height: 19px;
+		width: 7px;
+		height: 16px;
 	}
 }
 .icon-login {
@@ -532,9 +533,9 @@ input:-moz-placeholder { color:#777676; }
 		}
 	}
 	.hint {
-		font-size: 15px;
+		font-size: 22.5px;
 		// padding-left: 15%;
-		line-height: 19px;
+		line-height: 1.2272;
 	}
 }
 @media screen and (min-width: 667px) {

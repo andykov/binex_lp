@@ -12,7 +12,7 @@
 	&_phone {
 		font-size: 14px;
 		display: inline-block;
-		margin-top: 30px;
+		margin-top: 23px;
 		margin-left: 3.0833%;
 		a {
 			font-size: 16px;
@@ -44,6 +44,7 @@
 	}
 }
 .user-panel {
+	width: 347px;
 	background-color: #E5E5E5;
 	// padding: 0 10px;
 	box-sizing: border-box;
@@ -75,13 +76,21 @@
 		float: left;
 		
 	}
+	&_left {
+		background-color: #fff;
+		border-left: 1px solid #D4D4D4;
+		box-sizing: border-box;
+		padding-left: 25px;
+	}
 	&_right {
 		.open-platform {
 			background-color: #52A962;
 			color: #fff;
 		}
 	}
-	&_info {}
+	&_info {
+		font-size: 13px;
+	}
 }
 @media screen and (min-width: 360px){
 	.header {

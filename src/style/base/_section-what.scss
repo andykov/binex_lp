@@ -1,11 +1,19 @@
 /*==============#SECTION-WHAT================*/
 .what {
+	background-color: #282828;
 	padding-top: 50px;
 	padding-bottom: 4.2%;
+	color: #fff;
 	h2 {
+		font-size: 45px;
+		margin-bottom: 38px;
 		text-align: center;
+		font-weight: bold;
 		text-transform: uppercase;
-		margin-bottom: 30px;
+		font-family: StemBold;
+		letter-spacing: 3.1px;
+		line-height: 1.2;
+		color: #fff;
 	}
 	h3 {
 		color: #52A962;
@@ -61,20 +69,23 @@
 // 	}
 // }
 .calc {
+	background-color: #fff;
 	padding: 0 10px;
-	border: 3px dashed #52A962;
+	// border: 3px dashed #52A962;
 	box-sizing: border-box;
 	margin-top: 60px;
+	color: #000;
 	h3 {
 		color: #000;
 		font-family: $font_stem_medium;
-		font-size: 17px;
-		text-transform: uppercase;
+		font-size: 18px;
+		letter-spacing: 1.7px;
+		line-height: 1.2;
+		padding: 14px 0 19px;
+		// text-transform: uppercase;
 		width: 200px;
 		margin: auto;
 		background-color: #fff;
-		position: relative;
-		top: -24px;
 	}
 	.range {
 		padding-left: 17px;
@@ -111,10 +122,11 @@
 }
 .range {
 	&_field {
-		margin-bottom: 30px;
+		margin-bottom: 16px;
 		label {
 			display: block;
 			font-size: 15px;
+			line-height: 1;
 		}
 		output {
 			float: right;
@@ -205,7 +217,7 @@
 	.what {
 		.cols {
 			.col_left {
-				padding-right: 42px;
+				padding-right: 62px;
 				box-sizing: border-box;
 			}
 		}

@@ -1,9 +1,23 @@
 /*==============#SECTION-TOOLS================*/
 .tools {
-	padding: 50px 0 64px;
+	padding: 59px 0 50px;
 	h2 {
-		margin-bottom: 10px;
+		font-size: 42px;
+		margin-bottom: 48px;
 		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: StemBold;
+		letter-spacing: 3.1px;
+	}
+	.h2-medium {
+		font-size: 34px;
+		line-height: 1.1764;
+		letter-spacing: 1px;
+	}
+	h3 {
+		font-size: 24px;
+		font-family: StemBold;
 	}
 	// h4 {
 	// 	font-size: 19px;
@@ -16,7 +30,9 @@
 		// width: (420 / 1312) * 100%; /*420px*/
 		// float: left;
 		// display: table-cell;
-		padding-top: 5px;
+		text-align: center;
+		// padding-top: 187px;
+		
 		// max-width: 420px;
 		&:first-child {
 			padding-right: 04.9542%; /*65px*/
@@ -29,7 +45,7 @@
 			border-style: dashed;
 			border-color: #52A962;
 			margin: 45px 0;
-			padding: 45px 04.1920%;
+			padding: 45px 04.1920% 0;
 		}
 		// > h3 {
 		// 	color: #52A962;
@@ -39,6 +55,19 @@
 		// 	// 	border-top: 0;
 		// 	// }
 		// }
+	}
+	&_img {
+		position: relative;
+		// padding-top: 177px;
+		height: 177px;
+		img {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
 	}
 }
 // .post-short {
