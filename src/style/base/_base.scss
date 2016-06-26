@@ -14,8 +14,24 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 { font-size: 42px; }
-h2 { font-size: 20px; line-height: 27px;}	
-h3 { font-size: 16px; line-height: 20px; margin-bottom: 17px;}
+h2 { 
+	font-size: 24px;
+	line-height: 1;
+	@media screen and (min-width: 480px) {
+		font-size: 30px;
+	}
+	@media screen and (min-width: 667px) {
+		font-size: 45px; line-height: 1.2;
+	}
+}	
+h3 { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 17px;
+	@media screen and (min-width: 480px) {
+		font-size: 20px; line-height: 24px;
+	}
+}
 
 img {
 	max-width: 100%;
@@ -69,7 +85,9 @@ table {
 		}
 	}
 }
-
+b, optgroup, strong {
+	font-family: 'StemBold';
+}
 a {
 	color: #000;
 	text-decoration: none;
@@ -517,8 +535,6 @@ input:-moz-placeholder { color:#777676; }
 	}
 }
 @media screen and (min-width: 480px) {
-	h2 { font-size: 30px; line-height: 37px;}	
-	h3 { font-size: 20px; line-height: 24px;}
 	table {
 		thead {
 			td {
@@ -535,10 +551,8 @@ input:-moz-placeholder { color:#777676; }
 	.hint {
 		font-size: 22.5px;
 		// padding-left: 15%;
-		line-height: 1.2272;
+		line-height: 1.3272;
 	}
 }
-@media screen and (min-width: 667px) {
-	h2 { font-size: 36px; line-height: 43px;}	
-}
+
 

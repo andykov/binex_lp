@@ -2,19 +2,21 @@
 .about {
 	background: #252525 url('../img/design/bg-about.png') no-repeat right bottom;
 	color: #fff;
-	padding-top: 22px;
+	padding-top: 48px;
 	padding-bottom: 60px;
 	h2 {
-		font-family: $font_stem_ex_light;
+		// font-size: 45px;
+		margin-bottom: 47px;
 		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: StemBold;
+		letter-spacing: 1.2px;
 		color: #fff;
 	}
-	// &_text {
-	// 	max-width: 643px;
-	// 	margin: auto;
-	// 	letter-spacing: 1px;
-	// 	padding-bottom: 7px;
-	// }
+	&_text {
+		font-size: 17px;
+	}
 	&_box {
 		background-color: #fff;
 		color: #000;
@@ -100,6 +102,7 @@
 		vertical-align: middle;
 		margin-right: 22px;
 		margin-bottom: 20px;
+		line-height: 1.1875;
 		&.icon {
 			position: relative;
 			
@@ -142,6 +145,13 @@
 		}
 	}
 }
+@media screen and (max-width: 1022px) {
+	.about {
+		.col_left {
+			padding-bottom: 40px;
+		}
+	}
+}
 @media screen and (min-width: 480px) {
 	.about {
 		&_box {
@@ -156,11 +166,6 @@
 	}
 }
 @media screen and (min-width: 667px) {
-	// .about {
-	// 	&_text {
-	// 		text-align: justify;
-	// 	}
-	// }
 	.steps {
 		li {
 			margin-bottom: 0;
@@ -169,6 +174,7 @@
 			&:first-child {
 				li {
 					font-size: 16px;
+
 					&:first-child {
 						padding-left: 0;
 					}

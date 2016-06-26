@@ -8,6 +8,12 @@
 	text-align: center;
 	box-sizing: border-box;
 	transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+	&--def {
+		background-color: #FFDF4D;
+		color: #000;
+		border: 0;
+		border-radius: 5px;
+	}
 	&--sm {
 		max-width: 165px;
 		width: 100%;

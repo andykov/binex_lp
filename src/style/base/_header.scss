@@ -12,15 +12,15 @@
 	&_phone {
 		font-size: 14px;
 		display: inline-block;
-		margin-top: 23px;
+		margin-top: 33px;
 		margin-left: 3.0833%;
 		a {
 			font-size: 16px;
+			line-height: 1;
 		}
 		span {
 			display: block;
 			font-size: 11px;
-			padding-top: 5px;
 		}
 	}
 }
@@ -44,10 +44,11 @@
 	}
 }
 .user-panel {
-	width: 347px;
-	background-color: #E5E5E5;
+	width: 350px;
+	background-color: #fff;
+	border-left: 1px solid #D4D4D4;
 	// padding: 0 10px;
-	box-sizing: border-box;
+	// box-sizing: border-box;
 	clear: both;
 	a {
 		display: inline-block;
@@ -72,24 +73,91 @@
 	}
 	&_left,
 	&_right {
-		width: 50%;
 		float: left;
-		
 	}
 	&_left {
+		width: 185px;
 		background-color: #fff;
-		border-left: 1px solid #D4D4D4;
+		padding: 7px 0 12px 25px;
 		box-sizing: border-box;
-		padding-left: 25px;
 	}
 	&_right {
+		width: 165px;
 		.open-platform {
 			background-color: #52A962;
+			position: relative;
 			color: #fff;
+			width: 100%;
+			text-align: center;
+			font-family: 'StemBold';
+			font-size: 13px;
+			line-height: 16px;
+			text-transform: uppercase;
+			letter-spacing: 0.6px;
+			padding: 28px 0 18px;
+			transition: background-color 0.1s;
+			&:before {
+				content: '';
+				position: absolute;
+				width: 15px;
+				height: 13px;
+				top: 8px;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				background-image: url(../img/design/icon-chart.svg);
+				background-repeat: no-repeat;
+			}
+			&:hover {
+				background-color: #5eb76e;
+			}
+		}
+		.exit {
+			background-color: #E5E5E5;
+			width: 100%;
+			font-family: 'StemMedium';
+			font-size: 10px;
+			text-transform: uppercase;
+			text-align: center;
+			padding: 10px 0;
+			transition: background-color 0.1s;
+			&:before {
+				content: '';
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 5px;	
+				background: url(../img/design/icon-exit.svg) no-repeat;
+				width: 14px;
+				height: 12px;
+			}
+			&:hover {
+				background-color: #d4cdcd;
+			}
 		}
 	}
 	&_info {
 		font-size: 13px;
+	}
+	.btn {
+		font-size: 12px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		margin-top: 5px;
+		&.icon-money {
+			padding-left: 10px;
+			&:before {
+				content: '';
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 5px;
+				width: 20px;
+				height: 12px;
+				background: url(../img/design/icon-money.svg) no-repeat;
+			}
+		}
+		&:hover {
+			background-color: #ECBC14;
+		}
 	}
 }
 @media screen and (min-width: 360px){

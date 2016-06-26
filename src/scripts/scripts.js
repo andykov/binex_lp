@@ -47,7 +47,7 @@ $(document).ready(function() {
 		autoplay: false,
 		dots: false,
 		arrows: true,
-		speed: 1000,
+		speed: 400,
 		fade: true
 	});
 

@@ -1,9 +1,54 @@
 /*==============#SECTION-CONTACTS================*/
 .intro {
-	background-color: #ccc;
+	background-color: #152E61;
 	position: relative;
 	padding-bottom: 47px;
-	padding: 33px 0 2.0408%;
+	padding: 55px 0 2.0408%;
+	color: #fff;
+	&_title {
+		font-family: 'StemBold';
+		font-size: 45px;
+		line-height: 1;
+		letter-spacing: 1.5px;
+		color: #FFD200;
+		text-transform: uppercase;
+		padding-top: 45px;
+		margin-bottom: 15px;
+	}
+	&_subtitle {
+		font-size: 23px;
+		color: #fff;
+		line-height: 1.1739;
+		margin-bottom: 22px;
+		letter-spacing: 0.5px;
+		span {
+			border-bottom: 4px solid #00AD56;
+		}
+	}
+	ul {
+		max-width: 740px;
+		font-size: 19px;
+		line-height: 1.3578;
+	}
+	li {
+		position: relative;
+		border-bottom: 1px dashed #fff;
+		padding: 24px 0 24px 120px;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 25px;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			background: url(../img/design/icon-ok.svg) no-repeat;
+			width: 42px;
+			height: 45px;
+		}
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
 	// &-slider {
 	// 	// position: relative;
 	// 	&_item {

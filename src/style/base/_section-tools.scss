@@ -2,18 +2,23 @@
 .tools {
 	padding: 59px 0 50px;
 	h2 {
-		font-size: 42px;
-		margin-bottom: 48px;
+		// font-size: 42px;
+		margin-bottom: 0;
 		text-align: center;
 		font-weight: bold;
 		text-transform: uppercase;
 		font-family: StemBold;
 		letter-spacing: 3.1px;
+		@media screen and (min-width: 1024px) {
+			margin-bottom: 48px;
+		}
 	}
 	.h2-medium {
-		font-size: 34px;
-		line-height: 1.1764;
-		letter-spacing: 1px;
+		@media screen and (min-width: 768px) {
+			font-size: 34px;
+			// line-height: 1.1764;
+			letter-spacing: 1px;
+		}
 	}
 	h3 {
 		font-size: 24px;
@@ -25,6 +30,12 @@
 	// 	text-align: center;
 	// 	margin-bottom: 56px;
 	// }
+	&_boxes {
+		@media screen and (min-width: 1024px) {
+			display: table;
+			width: 100%;
+		}
+	}
 	&_box {
 		// box-sizing: border-box;
 		// width: (420 / 1312) * 100%; /*420px*/
@@ -55,7 +66,22 @@
 		// 	// 	border-top: 0;
 		// 	// }
 		// }
+		@media screen and (max-width: 1023px) {
+			padding-right: 6.192%;
+    		padding-left: 6.192%;
+		}
+		@media screen and (min-width: 1024px){
+			width: (420 / 1312) * 100%;
+			display: table-cell;
+			&--medium {
+				border-width: 0 3px 0 3px;
+				width: (470 / 1312) * 100%;
+				padding-top: 0;
+				margin: 0;
+			}
+		}
 	}
+
 	&_img {
 		position: relative;
 		// padding-top: 177px;
@@ -144,22 +170,3 @@
 // 		float: right;
 // 	}
 // }
-@media screen and (min-width: 1024px){
-	.tools {
-		&_boxes {
-			// @include clearfix();
-			display: table;
-			width: 100%;
-		}
-		&_box {
-			width: (420 / 1312) * 100%; /*420px*/
-			display: table-cell;
-			&--medium {
-				border-width: 0 3px 0 3px;
-				width: (470 / 1312) * 100%; /*470px*/ 
-				padding-top: 0;
-				margin: 0;
-			}
-		}
-	}
-}
