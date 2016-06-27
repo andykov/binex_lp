@@ -4,9 +4,6 @@
 		overflow: hidden;
 		max-width: $container_max_width;
 		margin: 0 auto;
-		// padding-left: 4.3050%;
-		// padding-left: 64px;
-		// padding-left: 10px;
 		box-sizing: border-box;
 	}
 	&_phone {
@@ -47,8 +44,6 @@
 	width: 350px;
 	background-color: #fff;
 	border-left: 1px solid #D4D4D4;
-	// padding: 0 10px;
-	// box-sizing: border-box;
 	clear: both;
 	a {
 		display: inline-block;
@@ -175,9 +170,7 @@
 @media screen and (min-width: 700px){
 	.user-panel {
 		float: right;
-		// width: 278px;
 		clear: none;
-		// padding: 0 40px;
 		a {
 			display: block;
 		}

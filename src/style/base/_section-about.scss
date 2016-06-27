@@ -1,11 +1,10 @@
 /*==============#SECTION-BEGIN================*/
 .about {
-	background: #252525 url('../img/design/bg-about.png') no-repeat right bottom;
+	background: url(../img/design/BNX_Signals_Landing_Components_Page-9.jpg) no-repeat right top / cover;
 	color: #fff;
 	padding-top: 48px;
 	padding-bottom: 60px;
 	h2 {
-		// font-size: 45px;
 		margin-bottom: 47px;
 		text-align: center;
 		font-weight: bold;
@@ -116,14 +115,6 @@
 			flex: 12px;
 		}
 	}
-	// &_text {
-	// 	li {
-	// 		vertical-align: top;
-	// 		&:before {
-	// 			top: 12px;
-	// 		}
-	// 	}
-	// }
 }
 .apps {
 	display: inline-block;

@@ -1,7 +1,6 @@
 /*==============#BASE STYLE================*/
 body {
 	font: $font_size $font_stem_regular;
-	// line-height: 20px;
 	line-height: 1.6;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	color: $base_color;
@@ -422,18 +421,6 @@ input:-moz-placeholder { color:#777676; }
 		height: 61px;
 	}
 }
-// .icon-play {
-// 	position: relative;
-// 	&:before {
-// 		content: '';
-// 		position: absolute;
-// 		left: 0;
-// 		margin: auto;
-// 		background: url('../img/design/icon-play.svg') no-repeat;
-// 		width: 36px;
-// 		height: 24px;
-// 	}
-// }
 .icon-income {
 	position: relative;
 	&:before {

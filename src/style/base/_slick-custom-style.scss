@@ -1,26 +1,4 @@
 /*==============#SLICK-CUSTOM-STYLE================*/
-// .signals-slider {
-// 	background-color: #F6F6F6;
-// 	box-shadow: 0 5px 10px 0 #B9B9B9;
-// 	overflow: hidden;
-// 	max-width: 355px;
-// 	margin: auto;
-// }
-// .reviews-slider {
-// 	padding: 30px 0 45px;
-// 	margin: auto;
-// 	.slick-arrow {
-// 		top: 45px;
-// 	}
-// 	.slick-prev {
-// 		left: 0;
-// 		@include sprite($s-arrow-green-left);
-// 	}
-// 	.slick-next {
-// 		right: 0;
-// 		@include sprite($s-arrow-green-right);
-// 	}
-// }
 .slick-slide {
 	outline: none;
 }
@@ -64,20 +42,7 @@
 	}
 }
 @media screen and (min-width: 1024px) {
-	// .signals-slider {
-	// 	max-width: 240px;
-	// }
 	.reviews-slider {
 		padding-bottom: 95px;
 	}
 }
-@media screen and (min-width: 1140px) {
-	// .signals-slider {
-	// 	max-width: 310px;
-	// }
-}
-// @media screen and (min-width: 1281px) {
-// 	.signals-slider {
-// 		max-width: 355px;
-// 	}
-// }

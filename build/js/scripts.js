@@ -35,14 +35,6 @@ $(document).ready(function() {
 	  polyfill: false 
 	});
 
-	// // slick slider
-	// $("#signalsSlider").slick({
-	// 	autoplay: true,
-	// 	dots: true,
-	// 	arrows: false,
-	// 	speed: 1000
-	// });
-
 	$("#reviewsSlider").slick({
 		autoplay: false,
 		dots: false,
@@ -70,9 +62,7 @@ $(document).ready(function() {
 	var modalTrigger = $('a').data('modal');
 	$(document).on('click', 'a[data-modal]', function(){
 		if ($(this).data('modal') === true) {
-			// $(this).attr('href');
 			var modalId = $(this).attr('href').substr(1);
-				// modalId = modalId.substr(1, modalId.length);
 			$('.overlay').stop().fadeIn(200).addClass('modal--open');
 			$('#' + modalId).stop().fadeIn(200).removeClass('modal--open');
 		} else {

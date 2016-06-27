@@ -2,7 +2,6 @@
 	max-width: $container_max_width;
 	margin: 0 auto;
 	padding: 0 10px;
-	// padding: 0 4.3050%;
 	box-sizing: border-box;
 	@include clearfix();
 }
@@ -20,8 +19,6 @@
 	}
 	.cols {
 		@include clearfix();
-		// width: 50%;
-		// float: left;
 		.col {
 			width: 50%;
 			float: left;
