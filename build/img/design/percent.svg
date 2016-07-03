@@ -3,8 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 67.875 68.99" enable-background="new 0 0 67.875 68.99" xml:space="preserve">
-<text transform="matrix(1 0 0 1 16.0657 40.7983)"><tspan x="0" y="0" fill="#07AD55" font-family="'Stem-Bold'" font-size="20.92">8</tspan><tspan x="13.786" y="0" fill="#07AD55" font-family="'Stem-Bold'" font-size="20.92">2</tspan></text>
-<text transform="matrix(1 0 0 1 42.0491 40.7983)" fill="#07AD55" font-family="'Stem-Bold'" font-size="12.92">%</text>
+<text xmlns="http://www.w3.org/2000/svg" transform="matrix(1 0 0 1 16.0657 40.7983)">
+	<tspan x="0" y="0" fill="#07AD55" font-size="20.92">8</tspan>
+	<tspan x="13.786" y="0" fill="#07AD55" font-size="20.92">2</tspan>
+</text>
+<text xmlns="http://www.w3.org/2000/svg" transform="matrix(1 0 0 1 42.0491 40.7983)" fill="#07AD55" font-size="13">%</text>
 <path fill="none" stroke="#07AD55" stroke-width="1.949" d="M7.552,33.917c0,14.571,11.813,26.384,26.385,26.384"/>
 <path fill="none" stroke="#07AD55" stroke-width="1.949" d="M33.937,7.532c-14.572,0-26.385,11.813-26.385,26.385"/>
 <path fill="none" stroke="#07AD55" stroke-width="1.949" d="M60.322,33.917c0-14.572-11.813-26.385-26.385-26.385"/>

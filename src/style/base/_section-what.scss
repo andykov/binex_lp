@@ -49,7 +49,7 @@
 		display: inline-block;
 		vertical-align: top;
 		
-		@media screen and (min-width: 1024px) {
+		@media screen and (min-width: 1322px) {
 			max-width: 240px;
 		}
 		h3 {
@@ -119,28 +119,42 @@
 		padding: 38px 0 25px;
 		.appeal {
 			float: left;
-			width: 318px;
+			
 			font-size: 15px;
 			line-height: 18px;
 			box-sizing: border-box;
 			text-decoration: underline;
 			position: relative;
-			@media screen and (max-width: 767px) {
-				margin-bottom: 20px;
-			}
-			@media screen and (min-width: 768px) {
-				padding-right: 75px;
-				&:after {
+			&:after {
 					content: '';
 					position: absolute;
-					right: 0;
-					top: 0;
-					bottom: 0;
 					margin: auto;
 					width: 30px;
 					height: 34px;
 					background: url(../img/design/arrow.svg) no-repeat;
+			}
+			@media screen and (max-width: 767px) {
+				margin-bottom: 20px;
+			}
+			@media screen and (max-width: 1139px) {
+				padding-bottom: 60px;
+				&:after {
+					bottom: 15px;
+					transform: rotate(90deg);
 				}
+			}
+			@media screen and (min-width: 1140px) {
+				width: 235px;
+				padding-right: 45px;
+				&:after {
+					right: 0;
+					top: 0;
+					bottom: 0;
+				}
+			}
+			@media screen and (min-width: 1280px) {
+				width: 300px;
+				padding-right: 75px;
 			}
 			span {
 				font-size: 22px;
@@ -150,9 +164,10 @@
 			}
 		}
 		.btn {
-			
-			@media screen and (min-width: 768px) {
+			@media screen and (min-width: 1140px) {
 				float: right;
+			}
+			@media screen and (min-width: 1280px) {
 				margin-right: 40px;
 			}
 		}

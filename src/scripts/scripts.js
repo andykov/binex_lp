@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 		inputRate = ($percent * inputRate) / 100;
 		var result = (inputRate * (inputSuccessDeal * inputSignalsDeal)) * inputTradingDays;
-		$('#calcResult').html(result);
+		$('#calcResult').html(result.toString().replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
 		$('#calcResultDay').html(inputTradingDays);
 	}
 	for (var i = $inputRange.length - 1; i >= 0; i--) {

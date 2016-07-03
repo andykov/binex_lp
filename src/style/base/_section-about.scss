@@ -92,16 +92,26 @@
 			}
 		}
 	}
+	.icon-plus {
+		&:before {
+			top: 0;
+			bottom: 0;
+		}
+	}
 	ul {
 		display: inline-block;
 		margin-right: 7px;
+		margin-bottom: 20px;
 	}
 	li {
 		display: inline-block;
 		vertical-align: middle;
-		margin-right: 22px;
+		margin-right: 20px;
 		margin-bottom: 20px;
 		line-height: 1.1875;
+		&:last-child {
+			margin-right: 0;
+		}
 		&.icon {
 			position: relative;
 			
@@ -158,17 +168,10 @@
 }
 @media screen and (min-width: 667px) {
 	.steps {
-		li {
-			margin-bottom: 0;
-		}
 		&_item {
 			&:first-child {
 				li {
-					font-size: 16px;
-
-					&:first-child {
-						padding-left: 0;
-					}
+					font-size: 14px;
 				}
 			}
 		}
@@ -201,6 +204,26 @@
 	.steps {
 		&_item {
 			padding-left: 140px;
+		}
+	}
+}
+@media screen and (min-width: 1140px) {
+
+}
+@media screen and (min-width: 1240px) {
+	.steps {
+		li {
+			margin-bottom: 0;
+		}
+		&_item {
+			&:first-child {
+				li {
+					font-size: 16px;
+					&:first-child {
+						padding-left: 0;
+					}
+				}
+			}
 		}
 	}
 }
